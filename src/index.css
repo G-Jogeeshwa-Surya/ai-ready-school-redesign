@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-dark-900: #0f172a;
+  --color-dark-800: #1e293b;
+  --color-dark-700: #334155;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-[#475569] font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-[#0F172A];
+  }
+}
+
+@layer utilities {
+  .hero-gradient {
+    background: linear-gradient(180deg, #F8FBFF 0%, #EEF3FF 50%, #FFFFFF 100%);
+  }
+  .ed-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e2e8f0;
+  }
+  .ed-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    border-color: transparent;
+  }
+  .btn-primary {
+    background-color: #2563EB;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  .btn-primary:hover {
+    background-color: #1E40AF;
+  }
+}
