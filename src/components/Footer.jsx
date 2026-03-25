@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-[#0F172A] text-white py-16">
+    <footer className="bg-[#020617] text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12 border-b border-slate-800 pb-12">
           <div className="col-span-1 md:col-span-1">
@@ -18,11 +18,11 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-6">Products</h4>
             <ul className="space-y-4 text-sm">
-              <li><a href="https://www.aireadyschool.com/cypher" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Cypher (Students)</a></li>
-              <li><a href="https://www.aireadyschool.com/morpheus" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Morpheus (Teachers)</a></li>
-              <li><a href="https://www.aireadyschool.com/zion" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Zion (Tools)</a></li>
-              <li><a href="https://www.aireadyschool.com/neo" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">NEO (Labs)</a></li>
-              <li><a href="https://www.aireadyschool.com/matrix" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Matrix (Servers)</a></li>
+              <li><a href="#cypher" className="hover:text-primary-400 transition-colors">Cypher (Students)</a></li>
+              <li><a href="#morpheus" className="hover:text-primary-400 transition-colors">Morpheus (Teachers)</a></li>
+              <li><a href="#zion" className="hover:text-primary-400 transition-colors">Zion (Tools)</a></li>
+              <li><a href="#neo" className="hover:text-primary-400 transition-colors">NEO (Labs)</a></li>
+              <li><a href="#matrix" className="hover:text-primary-400 transition-colors">Matrix (Servers)</a></li>
             </ul>
           </div>
 
@@ -31,9 +31,9 @@ const Footer = () => {
             <ul className="space-y-4 text-sm">
               <li><a href="https://www.aireadyschool.com/about-us" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">About Us</a></li>
               <li><a href="https://www.aireadyschool.com/pricing" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Pricing</a></li>
-              <li><a href="https://www.aireadyschool.com/testimonials" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Testimonials</a></li>
+              <li><a href="#testimonials" className="hover:text-primary-400 transition-colors">Testimonials</a></li>
               <li><a href="https://www.aireadyschool.com/our-partners" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Our Partners</a></li>
-              <li><a href="https://www.aireadyschool.com/contact-us" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Contact</a></li>
+              <li><a href="#demo" className="hover:text-primary-400 transition-colors">Contact</a></li>
             </ul>
           </div>
           

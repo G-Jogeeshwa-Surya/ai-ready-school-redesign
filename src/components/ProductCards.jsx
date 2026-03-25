@@ -74,6 +74,7 @@ const ProductCardItem = ({ product }) => {
 
   return (
     <a 
+      id={product.name.toLowerCase()}
       href={product.link}
       target="_blank"
       rel="noopener noreferrer"
