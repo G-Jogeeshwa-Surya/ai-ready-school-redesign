@@ -1,6 +1,6 @@
 const CTA = () => {
   return (
-    <section id="demo" className="relative py-24 bg-[#EEF2FF] overflow-hidden">
+    <section id="demo" className="relative py-24 bg-[#CBD5E1] overflow-hidden">
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#0F172A] mb-8">
           Start Your Journey Today
@@ -13,7 +13,7 @@ const CTA = () => {
           <a href="https://www.aireadyschool.com/demo" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 rounded-full text-lg font-bold shadow-lg">
             Book a Free Demo
           </a>
-          <a href="https://www.aireadyschool.com/contact-us" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-slate-50 border border-slate-200 text-[#0F172A] px-8 py-4 rounded-full text-lg font-bold transition-colors">
+          <a href="https://www.aireadyschool.com/contact-us" target="_blank" rel="noopener noreferrer" className="bg-[#E2E8F0] hover:bg-[#CBD5E1] border border-slate-200 text-[#0F172A] px-8 py-4 rounded-full text-lg font-bold transition-colors">
             Contact Us
           </a>
         </div>

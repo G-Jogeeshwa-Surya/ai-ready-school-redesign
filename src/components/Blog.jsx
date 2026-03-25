@@ -26,7 +26,7 @@ const posts = [
 
 const Blog = () => {
   return (
-    <section id="blog" className="py-24 bg-slate-50 border-t border-slate-100">
+    <section id="blog" className="py-24 bg-[#CBD5E1] border-t border-slate-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-end mb-12">
           <div>
@@ -40,10 +40,10 @@ const Blog = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {posts.map((post, index) => (
-            <a key={index} href={post.link} target="_blank" rel="noopener noreferrer" className="group flex flex-col bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
+            <a key={index} href={post.link} target="_blank" rel="noopener noreferrer" className="group flex flex-col bg-[#E2E8F0] rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:shadow-slate-200/50 transition-all duration-300">
               <div className="relative h-48 overflow-hidden">
                 <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-slate-900">
+                <div className="absolute top-4 left-4 bg-[#E2E8F0]/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-slate-900">
                   {post.category}
                 </div>
               </div>

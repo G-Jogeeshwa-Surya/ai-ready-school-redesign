@@ -29,7 +29,7 @@ const Hero = () => {
             Schedule a Call
             <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
           </a>
-          <a href="#platform" className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-4 rounded-full text-lg font-medium transition-all w-full sm:w-auto">
+          <a href="#platform" className="inline-flex items-center justify-center gap-2 bg-[#E2E8F0] hover:bg-[#CBD5E1] text-slate-700 border border-slate-200 px-8 py-4 rounded-full text-lg font-medium transition-all w-full sm:w-auto">
             Explore Ecosystem
           </a>
         </div>
@@ -37,7 +37,7 @@ const Hero = () => {
         {/* Placeholder for dashboard / product preview graphic */}
         <div className="mt-20 relative mx-auto max-w-5xl">
           <div className="absolute inset-0 bg-gradient-to-t from-slate-50 via-transparent to-transparent z-10"></div>
-          <div className="rounded-2xl border border-slate-200/60 bg-white/50 backdrop-blur-sm p-2 shadow-2xl shadow-slate-200/50">
+          <div className="rounded-2xl border border-slate-200/60 bg-[#E2E8F0]/50 backdrop-blur-sm p-2 shadow-2xl shadow-slate-200/50">
             <img 
               src="https://cdn.prod.website-files.com/68c2a3af705b8af2b80faa97/69100b9b9323d93e57131bf5_main-back-3.png" 
               alt="AI Ready School Dashboard" 
