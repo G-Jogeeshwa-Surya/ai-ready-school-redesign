@@ -26,7 +26,7 @@
     background: linear-gradient(180deg, #F8FBFF 0%, #EEF3FF 50%, #E2E8F0 100%);
   }
   .ed-card {
-    background: #E2E8F0;
+    background: #ffffff;
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;

@@ -126,8 +126,8 @@ const ProductCards = () => {
           ))}
           
           {/* Summary/Bridge card */}
-          <div className="group flex flex-col justify-center items-center text-center p-8 ed-card bg-[#E2E8F0]">
-            <div className="h-16 w-16 bg-[#E2E8F0] rounded-full flex items-center justify-center shadow-sm mb-6">
+          <div className="group flex flex-col justify-center items-center text-center p-8 ed-card bg-white">
+            <div className="h-16 w-16 bg-white rounded-full flex items-center justify-center shadow-sm mb-6">
               <Sparkles className="h-8 w-8 text-indigo-500" />
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-3">All Working Together</h3>
