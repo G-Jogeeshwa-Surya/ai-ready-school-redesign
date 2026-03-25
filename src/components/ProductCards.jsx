@@ -133,7 +133,7 @@ const ProductCards = () => {
             <p className="text-slate-600 mb-8">
               Every tool in our ecosystem integrates seamlessly, providing a unified experience for your entire school.
             </p>
-            <a href="#demo" className="btn-primary px-6 py-3 rounded-full font-medium shadow-sm">
+            <a href="https://www.aireadyschool.com/demo" target="_blank" rel="noopener noreferrer" className="btn-primary px-6 py-3 rounded-full font-medium shadow-sm">
               See it in action
             </a>
           </div>

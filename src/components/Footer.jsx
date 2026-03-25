@@ -18,30 +18,30 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-6">Products</h4>
             <ul className="space-y-4 text-sm">
-              <li><a href="#" className="hover:text-primary-400 transition-colors">Cypher (Students)</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors">Morpheus (Teachers)</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors">Zion (Tools)</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors">NEO (Labs)</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors">Matrix (Servers)</a></li>
+              <li><a href="https://www.aireadyschool.com/cypher" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Cypher (Students)</a></li>
+              <li><a href="https://www.aireadyschool.com/morpheus" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Morpheus (Teachers)</a></li>
+              <li><a href="https://www.aireadyschool.com/zion" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Zion (Tools)</a></li>
+              <li><a href="https://www.aireadyschool.com/neo" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">NEO (Labs)</a></li>
+              <li><a href="https://www.aireadyschool.com/matrix" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Matrix (Servers)</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-white font-semibold mb-6">Company</h4>
             <ul className="space-y-4 text-sm">
-              <li><a href="#" className="hover:text-primary-400 transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors">Testimonials</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors">Our Partners</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors">Contact</a></li>
+              <li><a href="https://www.aireadyschool.com/about-us" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">About Us</a></li>
+              <li><a href="https://www.aireadyschool.com/pricing" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Pricing</a></li>
+              <li><a href="https://www.aireadyschool.com/testimonials" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Testimonials</a></li>
+              <li><a href="https://www.aireadyschool.com/our-partners" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Our Partners</a></li>
+              <li><a href="https://www.aireadyschool.com/contact-us" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Contact</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="text-white font-semibold mb-6">Legal</h4>
             <ul className="space-y-4 text-sm">
-              <li><a href="#" className="hover:text-primary-400 transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors">Terms of Service</a></li>
+              <li><a href="https://www.aireadyschool.com/privacy-policy" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Privacy Policy</a></li>
+              <li><a href="https://www.aireadyschool.com/terms-of-service" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">Terms of Service</a></li>
             </ul>
           </div>
         </div>

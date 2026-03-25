@@ -28,3 +28,5 @@ WORKIT.md
 mcp*
 .env*
 firecrawl_mcp.py
+
+.vercel

@@ -10,10 +10,10 @@ const CTA = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#" className="btn-primary px-8 py-4 rounded-full text-lg font-bold shadow-lg">
+          <a href="https://www.aireadyschool.com/demo" target="_blank" rel="noopener noreferrer" className="btn-primary px-8 py-4 rounded-full text-lg font-bold shadow-lg">
             Book a Free Demo
           </a>
-          <a href="#" className="bg-white hover:bg-slate-50 border border-slate-200 text-[#0F172A] px-8 py-4 rounded-full text-lg font-bold transition-colors">
+          <a href="https://www.aireadyschool.com/contact-us" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-slate-50 border border-slate-200 text-[#0F172A] px-8 py-4 rounded-full text-lg font-bold transition-colors">
             Contact Us
           </a>
         </div>
